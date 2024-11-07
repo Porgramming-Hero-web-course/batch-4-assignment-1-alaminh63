@@ -18,7 +18,10 @@ console.log('I am a number')
 } else{
 console.log('I am ERROR 🥴')
 }
+return sample;
 };
+
+console.log(getType())
 ```
 
 ## Intersection Type
