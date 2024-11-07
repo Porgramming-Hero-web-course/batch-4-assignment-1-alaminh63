@@ -11,14 +11,14 @@ Let's see some code in action.
 ## Union Type
 ```typescript
 const getType = (sample: string | number) =>{
-if(typeof sample === 'string'){
-console.log('I am string')
-} else if(typeof sample === 'number'){
-console.log('I am a number')
-} else{
-console.log('I am ERROR 🥴')
+  if(typeof sample === 'string'){
+     console.log('I am string')
+} else if(typeof sample === 'number') {
+     console.log('I am a number')
+} else {
+     console.log('I am ERROR 🥴')
 }
-return sample;
+  return sample;
 };
 
 console.log(getType())
