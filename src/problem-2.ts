@@ -1,7 +1,7 @@
 {
   // Problem 2
 
-  const removeDuplicates = (numArray: number[]): number[] => {
+  function removeDuplicates (numArray: number[]): number[] {
     const duplicateArray = Array.from(new Set(numArray));
     return duplicateArray;
   };

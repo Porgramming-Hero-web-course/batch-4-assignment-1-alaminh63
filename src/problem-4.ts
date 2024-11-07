@@ -15,7 +15,7 @@
   type stringNum = string | number;
   type AllShape = CircleType | RectangleType;
 
-  const calculateShapeArea = (shape: AllShape): stringNum => {
+  function calculateShapeArea(shape: AllShape): stringNum {
     if ('radius' in shape) {
       const multiplyCircle = Math.PI * shape.radius * shape.radius;
       const AreaOfCircle = parseFloat(multiplyCircle.toFixed(2));
@@ -26,7 +26,7 @@
     } else {
       return 'Something Went Wrong';
     }
-  };
+  }
 
   const circleArea = calculateShapeArea({ shape: 'circle', radius: 5 });
   console.log(circleArea);

@@ -3,7 +3,7 @@
 
   type arrayType = number[];
 
-  const sumArray = (arrayOfNumbers: arrayType): number => {
+  function sumArray (arrayOfNumbers: arrayType): number {
     const allNumbers = arrayOfNumbers.reduce(
       (previous, current) => previous + current,
       0
