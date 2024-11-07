@@ -1,7 +1,7 @@
 {
   // Problem 5
 
-  type PersonType = {
+  interface PersonType {
     name: string;
     age: number;
   };

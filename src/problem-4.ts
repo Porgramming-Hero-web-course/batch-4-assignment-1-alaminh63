@@ -1,12 +1,12 @@
 {
   // Problem 4
 
-  type CircleType = {
+  interface CircleType {
     shape: 'circle';
     radius: number;
   };
 
-  type RectangleType = {
+  interface RectangleType {
     shape: 'rectangle';
     width: number;
     height: number;
