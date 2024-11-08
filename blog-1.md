@@ -52,3 +52,4 @@ console.log(getType())
   console.log(getPersonDetails(person));
 ```
 
+To sum up, TypeScript's Union and Intersection types provide powerful tools for improving readability, type safety, and code flexibility. More flexible and adaptive code architectures are made possible by **union types**, which enable handling numerous possible kinds with ease. Conversely, **intersection types** guarantee that combined features are present when required by strictly adhering to numerous type criteria. Developers may produce cleaner, safer, and easier-to-maintain code in TypeScript applications by utilizing these types to generate more expressive and error-resistant type definitions.
